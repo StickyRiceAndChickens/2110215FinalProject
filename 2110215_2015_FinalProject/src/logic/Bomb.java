@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 package logic;
 
-public class Bomb extends Weapon {
+public class Bomb extends Weapon implements Moveable,Destroyable {
 
 }
-=======
-package logic;
 
-public class Bomb implements Moveable,Destroyable {
-
-}
->>>>>>> origin/master
