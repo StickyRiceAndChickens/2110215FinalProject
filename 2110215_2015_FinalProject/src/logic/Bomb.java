@@ -1,5 +1,5 @@
 package logic;
 
-public class Bomb {
+public class Bomb implements Moveable, Destroyable {
 
 }
