@@ -21,7 +21,5 @@ public class Player {
 		this.gold = gold;
 		mySoldiers.add(new King());
 	}
-	
-	
 
 }
