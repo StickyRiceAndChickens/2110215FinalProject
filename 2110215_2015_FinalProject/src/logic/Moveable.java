@@ -1,7 +1,7 @@
 package logic;
 
 public interface Moveable {
-	public int  move();
+	public void  move(int speed,int directionX,int directionY);
 	
 
 }
