@@ -13,10 +13,9 @@ public abstract class DestroyableEntity extends Entity implements Destroyable, M
 	}
 
 	@Override
-	public void move(int speed,int directionX,int directionY) {
+	public void move(int speedX,int speedY) {
 		// change position
-		this.speedX=speed*(int)(directionX/Math.sqrt(x*x+y*y));
-		this.speedY=speed*(int)(directionX/Math.sqrt(x*x+y*y));
+		
 		x+=speedX;
 		y+=speedY;
 		
