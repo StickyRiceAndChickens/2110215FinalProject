@@ -21,10 +21,18 @@ public abstract class DestroyableEntity extends Entity implements Destroyable, M
 		
 	}
 
+	public int getLife() {
+		return life;
+	}
+
 	@Override
-	public  void changeLifePoint(int amount) {
+	public  void changeLife(int amount) {
 		// when get attacked
 		life+=amount;
+		if(life<=0){
+			life=0;
+			this.isDestroy=true;
+		}
 		
 	}
 	

@@ -3,7 +3,7 @@ package logic;
 public interface Destroyable {
 	
 	public boolean isDestroy();
-	public void changeLifePoint(int amount);
+	public void changeLife(int amount);
 	
 
 }
